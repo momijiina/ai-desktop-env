@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# 04_start_ai_desktop_env.sh
+# 03_start_ai_desktop_env.sh
 #
 # PC再起動後に ai-desktop-env を起動し直すためのスクリプト。
 # WSL Ubuntu側で実行する。
 #
 # 使い方:
 #   cd ~/ai-desktop-env
-#   bash 04_start_ai_desktop_env.sh
+#   bash 03_start_ai_desktop_env.sh
 
 set -euo pipefail
 
