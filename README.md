@@ -41,6 +41,22 @@ http://127.0.0.1:6080/vnc.html?autoconnect=1&resize=scale
 ### 4. 削除と再構築
 削除スクリプトはまだ未検証です。
 
+### 5. 再起動後など
+WSLを閉じた時などに起動しなおす必要があります
+####  WSL側で起動する
+
+```sh
+cd ~/ai-desktop-env
+bash 03_start_ai_desktop_env.sh
+```
+
+成功したら:
+
+```text
+http://127.0.0.1:6080/vnc.html?autoconnect=1&resize=scale
+```
+
+
 ## 内容
 
 - WSL mirrored networking 用 `.wslconfig`
