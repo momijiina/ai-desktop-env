@@ -38,6 +38,9 @@ wsl --shutdown
 http://127.0.0.1:6080/vnc.html?autoconnect=1&resize=scale
 ```
 
+### 4. 削除と再構築
+削除スクリプトはまだ未検証です。
+
 ## 内容
 
 - WSL mirrored networking 用 `.wslconfig`
