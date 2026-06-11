@@ -90,3 +90,13 @@ sudo journalctl --user -u ai-desktop-env-start.service -n 100 --no-pager
 現在のVNCは検証優先で `-SecurityTypes None`
 つまりパスワードなしです。  
 LAN公開や別PC利用では、VPNやVNC認証などを追加してください。
+
+## WSL設定必要があれば
+`.wslconfig`についか
+```sh
+vmIdleTimeout=-1
+```
+
+```sh
+wsl --exec dbus-launch true
+```
