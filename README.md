@@ -56,6 +56,21 @@ bash 03_start_ai_desktop_env.sh
 http://127.0.0.1:6080/vnc.html?autoconnect=1&resize=scale
 ```
 
+### 永続化
+起動スクリプト名は以下とする。
+```text
+~/ai-desktop-env/03_start_ai_desktop_env.sh
+```
+#### WSL側
+```sh
+cd ~/ai-desktop-env
+bash 04_persist_ai_desktop_env.sh
+```
+確認:
+```sh
+systemctl --user status ai-desktop-env-start.service --no-pager -l
+sudo journalctl --user -u ai-desktop-env-start.service -n 100 --no-pager
+```
 
 ## 内容
 
